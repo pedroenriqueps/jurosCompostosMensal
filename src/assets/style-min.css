@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.conteudo {
+  margin-top: 2rem;
+}
+.conteudo h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.conteudo .valores {
+  margin-left: 4rem;
+}
+.conteudo .valores h3 {
+  margin: 0.4rem 0;
+  font-weight: 600;
+}
+.conteudo .form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 0.1rem solid #1f56cc;
+  width: 21.25rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.conteudo .form .diaDoMes {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+.conteudo .form .cont-input {
+  margin: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.conteudo .form .cont-input label {
+  font-weight: 800;
+  font-size: 0.92rem;
+  margin-right: 0.3rem;
+}
+.conteudo .form .cont-input input {
+  cursor: pointer;
+  width: 11.875rem;
+  height: 1.75rem;
+  padding-left: 0.3rem;
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 0.13rem solid #e4e4e4;
+  font-weight: 800;
+  color: #e4e4e4;
+}
+.conteudo .form .cont-input input::placeholder {
+  font-size: 0.8rem;
+}
+.conteudo .form button {
+  cursor: pointer;
+  align-self: center;
+  margin-top: 1.2rem;
+  width: 6.83rem;
+  height: 2.11rem;
+  border: none;
+  border-radius: 4px;
+  color: #e4e4e4;
+  background-color: #1f56cc;
+  font-size: 0.93rem;
+  font-weight: 600;
+}
+.conteudo .tabela {
+  margin: 2rem;
+}
+.conteudo .tabela tbody .cabecalho th {
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-bottom: 0.3rem;
+  color: #1f56cc;
+}
+.conteudo .tabela tbody tr td {
+  border: 1px solid #fefefe;
+  padding: 0.6rem 0.8rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style-min.css.map */

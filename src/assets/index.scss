@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin listaGapLeft () {
+  gap: 1rem;
+}
+
+
+:root {
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+
+}
+
+.conteudo {
+  margin-top: 2rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .valores {
+    margin-left: 4rem;
+
+    h3 {
+      margin: .4rem 0;
+      font-weight: 600;
+
+    }
+  }
+
+  .form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border: .1rem solid #1f56cc;
+    width: 21.25rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 6px;
+
+    .diaDoMes {
+      box-sizing: border-box;
+      position: absolute;
+      top: .3rem;
+      right: .3rem;
+      font-size: .9rem;
+      font-weight: 800;
+    }
+
+    .cont-input {
+      margin: .5rem 0;
+
+      display: flex;
+      flex-direction: column;
+
+
+      label {
+        font-weight: 800;
+        font-size: .92rem;
+        margin-right: .3rem;
+      }
+
+      input {
+        cursor: pointer;
+
+        width: 11.875rem;
+        height: 1.75rem;
+        padding-left: .3rem;
+
+        outline: none;
+        border: none;
+        background: none;
+
+        border-bottom: .13rem solid #e4e4e4;
+        font-weight: 800;
+        color: #e4e4e4;
+
+        &::placeholder {
+          font-size: .8rem;
+        }
+      }
+    }
+
+    button {
+      cursor: pointer;
+
+      align-self: center;
+
+      margin-top: 1.2rem;
+      width: 6.83rem;
+      height: 2.11rem;
+
+      border: none;
+      border-radius: 4px;
+      color: #e4e4e4;
+      background-color: #1f56cc;
+      font-size: .93rem;
+      font-weight: 600;
+
+    }
+  }
+
+  .tabela {
+    margin: 2rem;
+
+    tbody {
+      .cabecalho {
+        th {
+          font-weight: 600;
+          font-size: 1.1rem;
+          padding-bottom: .3rem;
+          color: #1f56cc;
+        }
+      }
+
+      tr {
+        td {
+          border: 1px solid #fefefe;
+          padding: .6rem .8rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
